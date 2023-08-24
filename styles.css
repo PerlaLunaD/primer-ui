@@ -1,0 +1,108 @@
+.imagen{
+background: url('imagenes/principal.jpg');
+background-size: cover;
+background-position: center;
+height: 250px;
+
+}
+
+/* Estilos de navegacion y encabezado*/
+.navbar{
+  background-color: rgb(95, 116, 153);
+}
+
+
+.nav-iconos {
+  width: 90px;
+  margin-top: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.sgv-icons {
+  width: 30px;
+}
+
+
+@media (max-width: 991px){
+  .sidebar{
+    background-color: rgb(90, 116, 141);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.principal-texto{
+  color: white;
+  margin-top: 160px;
+  margin-left: 4px;
+ 
+}
+
+/*Galeria de imagenes y descripcion*/
+
+.imagen-uno{
+  margin-top: 40px;
+  object-fit: cover;
+  padding-right: 0;
+}
+
+.texto-uno{
+  color: rgb(68, 177, 228);
+  margin-left: 2px;
+}
+
+.imagen-dos{
+  margin-top: 10px;
+  object-fit: cover;
+  padding-right: 0;
+}
+
+.texto-dos{
+  color: rgb(68, 177, 228);
+  margin-left: 2px;
+}
+
+.imagen-tres{
+  margin-top: 10px;
+  object-fit: cover;
+  padding-right: 0;
+}
+
+.texto-tres{
+  color: rgb(68, 177, 228);
+  margin-left: 2px;
+}
+
+.espacio-vacio{
+  height: 100px;
+  background-color: rgb(95, 116, 153);
+}
+ 
+/*.decoracion-linea{
+  background: rgb(97, 96, 97);
+  height: 3px;
+  margin-top: 15px;
+  width: 100%;
+ }*/
+
+.descripcion{
+  height: auto;
+  background-color: rgb(95, 116, 153);
+  margin-top: 0;
+  color: white;
+  
+}
+
+.fotografia{
+  width: 100px;
+  height: 100px;
+  background: #CCC;
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+.boton-news{
+  margin-top: 50px;
+  padding-left: 30px;
+}
