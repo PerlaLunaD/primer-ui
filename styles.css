@@ -1,9 +1,8 @@
 .imagen{
-background: url('imagenes/principal.jpg');
-background-size: cover;
-background-position: center;
-height: 250px;
-
+  background: url('imagenes/principal.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
 }
 
 /* Estilos de navegacion y encabezado*/
@@ -41,21 +40,29 @@ height: 250px;
 
 /*Galeria de imagenes y descripcion*/
 
-.imagen-uno{
-  margin-top: 40px;
-  object-fit: cover;
+.cuadro-mayor{
+  margin-top: 100px;
+  justify-content: center;
   padding-right: 0;
+}
+
+.imagen-uno{
+  margin-top: 100px;
+  object-fit: cover;
+  padding: 0;
+
 }
 
 .texto-uno{
   color: rgb(68, 177, 228);
   margin-left: 2px;
+ 
 }
 
 .imagen-dos{
-  margin-top: 10px;
+  margin-top: 100px;
   object-fit: cover;
-  padding-right: 0;
+
 }
 
 .texto-dos{
@@ -64,9 +71,10 @@ height: 250px;
 }
 
 .imagen-tres{
-  margin-top: 10px;
+  margin-top: 100px;
   object-fit: cover;
-  padding-right: 0;
+
+ 
 }
 
 .texto-tres{
